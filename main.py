@@ -1,7 +1,7 @@
 from insercion import Insercion
 
 def main():
-    Lista = [6,5,3,1,8,7,2,4]
+    Lista = [6,5,3,1,8,7,2,4,9]
     ord = Insercion(Lista)
     print("Lista desordenada \t", Lista)
     print("Lista ordenada    \t", ord.insercion())
